@@ -10965,13 +10965,16 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 1024px) {
-  .btn {
-    width: 100%;
-  }
   .nav__mobile {
     display: block;
   }
   .nav__pc {
     display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .btn {
+    width: 100%;
   }
 }
