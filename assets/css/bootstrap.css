@@ -10964,6 +10964,16 @@ textarea.form-control-lg {
   display: none;
 }
 
+.login-box {
+  border: none;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+
+.login-label {
+  min-width: 100px;
+}
+
 @media (max-width: 1024px) {
   .nav__mobile {
     display: block;
