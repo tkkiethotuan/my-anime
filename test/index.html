@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test</title>
     <script>
-        
-        function get() {
-            var value = document.getElementById("input").value
-            console.log(value)
+        function detail()
+        {
+            document.getElementById("movie_name").innerHTML="Name: animeName"
+            document.getElementById("movie_year").innerHTML="Year: animeYear"
         }
-        
     </script>
 </head>
 <body>
-    <h1 id="heading">Hello</h1>
+    <button onclick="detail()">Detail</button>
 
-    <input type="text" id="input">
-
-    <button onclick="get()">Get</button>
+    <p id="movie_name"></p>
+    <p id="movie_year"></p>
 </body>
 </html>

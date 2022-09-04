@@ -7079,3 +7079,90 @@ function welcome_exit()
     window.location.replace("https://google.com")
   }
 }
+
+
+// anime information function
+
+function info_your_name()
+{
+  document.getElementById("your_name__name").innerHTML="Tên: Your Name"
+  document.getElementById("your_name__year").innerHTML="Năm: 2016"
+  document.getElementById("your_name__episode").innerHTML="Số Tập: 1"
+}
+
+function info_dua_con_cua_thoi_tiet()
+{
+  document.getElementById("dua_con_cua_thoi_tiet__name").innerHTML="Tên: Đứa Con Của Thời Tiết"
+  document.getElementById("dua_con_cua_thoi_tiet__year").innerHTML="Năm: 2019"
+  document.getElementById("dua_con_cua_thoi_tiet__episode").innerHTML="Số Tập: 1"
+}
+
+function info_khu_vuon_ngon_tu()
+{
+  document.getElementById("khu_vuon_ngon_tu__name").innerHTML="Tên: Khu Vườn Ngôn Từ"
+  document.getElementById("khu_vuon_ngon_tu__year").innerHTML="Năm: 2013"
+  document.getElementById("khu_vuon_ngon_tu__episode").innerHTML="Số Tập: 1"
+}
+
+function info_rong_va_cong_chua_tan_nhang()
+{
+  document.getElementById("rong_va_cong_chua_tan_nhang__name").innerHTML="Tên: Rồng Và Công Chúa Tàn Nhang"
+  document.getElementById("rong_va_cong_chua_tan_nhang__year").innerHTML="Năm: 2021"
+  document.getElementById("rong_va_cong_chua_tan_nhang__episode").innerHTML="Số Tập: 1"
+}
+
+function info_vung_dat_linh_hon()
+{
+  document.getElementById("vung_dat_linh_hon__name").innerHTML="Tên: Vùng Đất Linh Hồn"
+  document.getElementById("vung_dat_linh_hon__year").innerHTML="Năm: 2001"
+  document.getElementById("vung_dat_linh_hon__episode").innerHTML="Số Tập: 1"
+}
+
+function info_lau_dai_tren_khong()
+{
+  document.getElementById("lau_dai_tren_khong__name").innerHTML="Tên: Lâu Đài Trên Không"
+  document.getElementById("lau_dai_tren_khong__year").innerHTML="Năm: 1986"
+  document.getElementById("lau_dai_tren_khong__episode").innerHTML="Số Tập: 1"
+}
+
+function info_mo_dom_dom()
+{
+  document.getElementById("mo_dom_dom__name").innerHTML="Tên: Mộ Đom Đóm"
+  document.getElementById("mo_dom_dom__year").innerHTML="Năm: 1988"
+  document.getElementById("mo_dom_dom__episode").innerHTML="Số Tập: 1"
+}
+
+function info_loi_thi_tham_cua_trai_tim()
+{
+  document.getElementById("loi_thi_tham_cua_trai_tim__name").innerHTML="Tên: Lời Thì Thầm Của Trái Tim"
+  document.getElementById("loi_thi_tham_cua_trai_tim__year").innerHTML="Năm: 1995"
+  document.getElementById("loi_thi_tham_cua_trai_tim__episode").innerHTML="Số Tập: 1"
+}
+
+function info_ngon_doi_hoa_hong_anh()
+{
+  document.getElementById("ngon_doi_hoa_hong_anh__name").innerHTML="Tên: Ngọn Đồi Hoa Hồng Anh"
+  document.getElementById("ngon_doi_hoa_hong_anh__year").innerHTML="Năm: 2011"
+  document.getElementById("ngon_doi_hoa_hong_anh__episode").innerHTML="Số Tập: 1"
+}
+
+function info_dich_vu_giao_hang_cua_phu_thuy_kiki()
+{
+  document.getElementById("dich_vu_giao_hang_cua_phu_thuy_kiki__name").innerHTML="Tên: Dịch Vụ Giao Hàng Của Phù Thủy Kiki"
+  document.getElementById("dich_vu_giao_hang_cua_phu_thuy_kiki__year").innerHTML="Năm: 1989"
+  document.getElementById("dich_vu_giao_hang_cua_phu_thuy_kiki__episode").innerHTML="Số Tập: 1"
+}
+
+function info_darling_in_the_franxx()
+{
+  document.getElementById("darling_in_the_franxx__name").innerHTML="Tên: Darling In The Franxx"
+  document.getElementById("darling_in_the_franxx__year").innerHTML="Năm: 2018"
+  document.getElementById("darling_in_the_franxx__episode").innerHTML="Số Tập: Phần 1: 24 tập"
+}
+
+function info_takt_op_destiny()
+{
+  document.getElementById("takt_op_destiny__name").innerHTML="Tên: Takt-op.Destiny"
+  document.getElementById("takt_op_destiny__year").innerHTML="Năm: 2021"
+  document.getElementById("takt_op_destiny__episode").innerHTML="Số Tập: Phần 1: 12 tập"
+}

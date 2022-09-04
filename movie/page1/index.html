@@ -74,40 +74,80 @@
         <div class="content between">
             <h1>Movie</h1>
 
-            <img src="/assets/img/movie/your-name/your-name.jpg" alt="movie your name" class="img-fluid height-500px">
-            <br>
-            <a href="/movie/page1/your-name/" class="btn btn-primary d-inline-block">Xem phim <span
-                    class="material-symbols-outlined">
-                    play_arrow
-                </span></a> <br>
+            <div>
+                <img src="/assets/img/movie/your-name/your-name.jpg" alt="movie your name" class="img-fluid height-500px">
+                <br>
+                <a href="/movie/page1/your-name/" class="btn btn-primary d-inline-block">Xem phim <span
+                        class="material-symbols-outlined">
+                        play_arrow
+                    </span></a> <br>
+                <button class="btn btn-info d-inline-block" onclick="info_your_name()">Thông tin<span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></button> <br>
+                <p id="your_name__name"></p>
+                <p id="your_name__year"></p>
+                <p id="your_name__episode"></p>
+            </div>
 
-            <img src="/assets/img/movie/dua-con-cua-thoi-tiet/Tenki_no_Ko_poster.jpg" alt="movie dua con cua thoi tiet"
-                class="img-fluid height-500px"> <br>
-            <a href="/movie/page1/dua-con-cua-thoi-tiet/" class="btn btn-primary d-inline-block">Xem phim <span
-                    class="material-symbols-outlined">
-                    play_arrow
-                </span></a> <br>
+            <div>
+                <img src="/assets/img/movie/dua-con-cua-thoi-tiet/Tenki_no_Ko_poster.jpg" alt="movie dua con cua thoi tiet"
+                    class="img-fluid height-500px"> <br>
+                <a href="/movie/page1/dua-con-cua-thoi-tiet/" class="btn btn-primary d-inline-block">Xem phim <span
+                        class="material-symbols-outlined">
+                        play_arrow
+                    </span></a> <br>
+                <button class="btn btn-info d-inline-block" onclick="info_dua_con_cua_thoi_tiet()">Thông tin<span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></button> <br>
+                <p id="dua_con_cua_thoi_tiet__name"></p>
+                <p id="dua_con_cua_thoi_tiet__year"></p>
+                <p id="dua_con_cua_thoi_tiet__episode"></p>
+            </div>
+            
+            <div>
+                <img src="/assets/img/movie/khu-vuon-ngon-tu/khu_vuon_ngon_tu_-_bia_1.jpg" alt="movie khu vuon ngon tu"
+                    class="img-fluid height-500px"> <br>
+                <a href="/movie/page1/khu-vuon-ngon-tu/" class="btn btn-primary d-inline-block">Xem phim <span
+                        class="material-symbols-outlined">
+                        play_arrow
+                    </span></a> <br>
+                <button class="btn btn-info d-inline-block" onclick="info_khu_vuon_ngon_tu()">Thông tin<span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></button> <br>
+                <p id="khu_vuon_ngon_tu__name"></p>
+                <p id="khu_vuon_ngon_tu__year"></p>
+                <p id="khu_vuon_ngon_tu__episode"></p>
+            </div>
 
-            <img src="/assets/img/movie/khu-vuon-ngon-tu/khu_vuon_ngon_tu_-_bia_1.jpg" alt="movie khu vuon ngon tu"
-                class="img-fluid height-500px"> <br>
-            <a href="/movie/page1/khu-vuon-ngon-tu/" class="btn btn-primary d-inline-block">Xem phim <span
-                    class="material-symbols-outlined">
-                    play_arrow
-                </span></a> <br>
+            <div>
+                <img src="/assets/img/movie/rong-va-cong-chua-tan-nhang/poster_belle_online_1_.jpg"
+                    alt="movie rong va cong chua tan nhang" class="img-fluid height-500px"> <br>
+                <a href="/movie/page1/rong-va-cong-chua-tan-nhang/" class="btn btn-primary d-inline-block">Xem phim <span
+                        class="material-symbols-outlined">
+                        play_arrow
+                    </span></a> <br>
+                <button class="btn btn-info d-inline-block" onclick="info_rong_va_cong_chua_tan_nhang()">Thông tin<span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></button> <br>
+                <p id="rong_va_cong_chua_tan_nhang__name"></p>
+                <p id="rong_va_cong_chua_tan_nhang__year"></p>
+                <p id="rong_va_cong_chua_tan_nhang__episode"></p>
+            </div>
 
-            <img src="/assets/img/movie/rong-va-cong-chua-tan-nhang/poster_belle_online_1_.jpg"
-                alt="movie rong va cong chua tan nhang" class="img-fluid height-500px"> <br>
-            <a href="/movie/page1/rong-va-cong-chua-tan-nhang/" class="btn btn-primary d-inline-block">Xem phim <span
-                    class="material-symbols-outlined">
-                    play_arrow
-                </span></a> <br>
-
-            <img src="/assets/img/movie/vung-dat-linh-hon/4cb3c798ff218e03962d467f7b34982d.jpg"
-                alt="movie vung dat linh hon" class="img-fluid height-500px"> <br>
-            <a href="/movie/page1/vung-dat-linh-hon/" class="btn btn-primary d-inline-block">Xem phim <span
-                    class="material-symbols-outlined">
-                    play_arrow
-                </span></a> <br>
+            <div>
+                <img src="/assets/img/movie/vung-dat-linh-hon/4cb3c798ff218e03962d467f7b34982d.jpg"
+                    alt="movie vung dat linh hon" class="img-fluid height-500px"> <br>
+                <a href="/movie/page1/vung-dat-linh-hon/" class="btn btn-primary d-inline-block">Xem phim <span
+                        class="material-symbols-outlined">
+                        play_arrow
+                    </span></a> <br>
+                <button class="btn btn-info d-inline-block" onclick="info_vung_dat_linh_hon()">Thông tin<span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span></button> <br>
+                <p id="vung_dat_linh_hon__name"></p>
+                <p id="vung_dat_linh_hon__year"></p>
+                <p id="vung_dat_linh_hon__episode"></p>
+            </div>
 
 
             <div class="page-button">
@@ -121,4 +161,4 @@
     </div>
 </body>
 
-</html>
+</html> 
